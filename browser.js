@@ -6,15 +6,15 @@ window.TESTS_Failed = 0;
 
 exports.pass = function (name) {
   if (typeof console !== 'undefined' && typeof console.log === 'function') {
-    console.log((name ? name + ' ' : '')'passed');
+    console.log((name ? name + ' ' : '') + 'passed');
   }
-  TESTS_COMPLETE++;
-  TESTS_PASSED++;
+  window.TESTS_COMPLETE++;
+  window.TESTS_PASSED++;
 }
 exports.fail = function (name) {
   if (typeof console !== 'undefined' && typeof console.log === 'function') {
-    console.log((name ? name + ' ' : '')'failed');
+    console.log((name ? name + ' ' : '') + 'failed');
   }
-  TESTS_COMPLETE++;
-  TESTS_Failed++;
+  window.TESTS_COMPLETE++;
+  window.TESTS_Failed++;
 }
