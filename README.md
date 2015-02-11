@@ -32,7 +32,7 @@ It will log a message for test pass or fail if the browser has console support. 
 ```js
 window.TESTS_COMPLETE = 0;
 window.TESTS_PASSED = 0;
-window.TESTS_Failed = 0;
+window.TESTS_FAILED = 0;
 ```
 
 ## License

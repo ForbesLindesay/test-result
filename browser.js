@@ -2,7 +2,7 @@
 
 window.TESTS_COMPLETE = 0;
 window.TESTS_PASSED = 0;
-window.TESTS_Failed = 0;
+window.TESTS_FAILED = 0;
 
 exports.pass = function (name) {
   if (typeof console !== 'undefined' && typeof console.log === 'function') {
@@ -16,5 +16,5 @@ exports.fail = function (name) {
     console.log((name ? name + ' ' : '') + 'failed');
   }
   window.TESTS_COMPLETE++;
-  window.TESTS_Failed++;
+  window.TESTS_FAILED++;
 }
