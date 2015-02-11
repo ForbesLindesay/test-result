@@ -1,6 +1,6 @@
 {
   "name": "test-result",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple module to mark the result of your tests",
   "browser": "browser.js",
   "main": "index.js",
