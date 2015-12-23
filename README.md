@@ -3,7 +3,7 @@
 A simple module to mark the result of your tests
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/test-result/master.svg)](https://travis-ci.org/ForbesLindesay/test-result)
-[![Dependency Status](https://img.shields.io/gemnasium/ForbesLindesay/test-result.svg)](https://gemnasium.com/ForbesLindesay/test-result)
+[![Dependency Status](https://img.shields.io/david/ForbesLindesay/test-result.svg)](https://david-dm.org/ForbesLindesay/test-result)
 [![NPM version](https://img.shields.io/npm/v/test-result.svg)](https://www.npmjs.org/package/test-result)
 
 ## Installation
