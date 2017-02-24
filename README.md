@@ -1,5 +1,7 @@
 # test-result
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/test-result.svg)](https://greenkeeper.io/)
+
 A simple module to mark the result of your tests
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/test-result/master.svg)](https://travis-ci.org/ForbesLindesay/test-result)
